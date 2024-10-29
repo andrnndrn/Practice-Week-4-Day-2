@@ -1,0 +1,134 @@
+
+.news-list {
+    display: flex;
+    background-color: ghostwhite;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.news-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5% 5% 0 0;
+    overflow: hidden;
+    cursor : pointer;
+}
+
+.news-card:hover {
+ background-color: whitesmoke;
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-detail {
+    padding: 10px 20px;
+}
+
+.news-detail h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.news-detail p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+/* NewsDetailComponent */
+.detail .portal{
+    text-align: center;
+    font-weight: 5000;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* newsDetail */
+.content-news-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-news-detail h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .content-news-detail p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .content-news-detail .back-btn {
+    background-color: #007bff;
+    position: absolute;
+    left: 70px;
+    top: 22px;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .content-news-detail .back-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .categories {
+    margin: 5px;
+  }
+  
+  .content-news-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .content-news-detail .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category-btn button {
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-btn button:hover {
+    background-color: #ccc;
+  }
